@@ -10,4 +10,10 @@ function getComputerChoice() {
     }
 }
 
+function getHumanChoice() {
+    let question = prompt(`Rock, Paper or Scissors`)
+    console.log(question) 
+    return question    
+}
 getComputerChoice()
+getHumanChoice()
