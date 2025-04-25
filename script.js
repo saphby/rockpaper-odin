@@ -15,7 +15,7 @@ function getHumanChoice() {
 }
 
  
-function playRound(humanChoice, computerChoice) {    
+function playRound() {    
     humanChoice = getHumanChoice()
     computerChoice = getComputerChoice()
     let humanLower = humanChoice.toLowerCase()
